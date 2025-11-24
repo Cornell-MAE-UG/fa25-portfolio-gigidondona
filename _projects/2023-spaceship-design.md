@@ -33,50 +33,50 @@ Here is a simplified diagram of a turbine
 
 a- Mass balance
 For a steady flow system with one inlet and outlet:
-\[
+$$
 \dot{m}_{in} = \dot{m}_{out} = \dot{m}
-\]
+$$
 
 b- Energy balance (General first law for control volume)
 The general steady-flow energy equation for a control volume is:
-\[
+$$
 \dot{Q} - \dot{W} =
 \dot{m} \left[(h_2 - h_1)
 + \frac{V_2^2 - V_1^2}{2}
 + g(z_2 - z_1)\right]
-\]
+$$
 
 For a turbine, we usually assume that:
-\[
+$$
 \dot{Q} = 0
 \deltaKE = \deltaPE = 0 
-\]
+$$
 
 So this simplifies to:
 
-\[
+$$
 \dot{W}_{out} = \dot{m}(h_1 - h_2)
-\]
+$$
 
 where:
-\dot{W}_{out} is the turbine power output 
+$$\dot{W}_{out}$$ is the turbine power output 
 h_1 is the inlet enthalpy 
 h_2 is the outlet enthalpy 
 
 c- Entropy balance (Second law for a cotrol volume)
-\[
+$$
 \dot{m}(s_2 - s_1) = \dot{S}_{gen} - \frac{\dot{Q}}{T_{boundary}}
-\]
-\[
+$$
+$$
 \dot{S}_{gen} = \dot{m}(s_2 - s_1)
-\]
+$$
 
 where:
 s_1 is the specefic entropy at the turbine inlet 
 s_2 is the specefic entropy at the turbine outlet 
-\dot{S}_{gen} \geq 0 represents the entropy generation due to irreversibilities like friction, tubulence or non ideal expansion.
+$$\dot{S}_{gen} \geq 0$$ represents the entropy generation due to irreversibilities like friction, tubulence or non ideal expansion.
 
-If the turbine was perfectly isentropic we would have s_1 = s_2 and \dot{S}_{gen} = 0. But for this example we will assume that it is a real turbine and therefore: s_2 > s_1 and \dot{S}_{gen} > 0.
+If the turbine was perfectly isentropic we would have s_1 = s_2 and \dot{S}_{gen} = 0. But for this example we will assume that it is a real turbine and therefore: s_2 > s_1 and $$\dot{S}_{gen} > 0$$.
 
 
 ## IV- DESIGN CHANGE: INCREASING INLET TEMPERATURE
