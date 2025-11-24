@@ -216,7 +216,7 @@ Let's imagine two different inlet and study the difference.
 
 
 ### c- impact on device performance
-
+---
 1- work output 
 
 <p><strong>Turbine work equation:</strong><br>

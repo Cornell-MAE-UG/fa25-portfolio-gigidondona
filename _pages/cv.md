@@ -31,40 +31,35 @@ Passionate about engineering and eager to apply my knowledge in real-world appli
 #### Skills
 - **Software:** Autodesk Fusion 360, SolidWorks, ANSYS  
 - **Programming:** Python, MATLAB  
-- **Tools:** 3D Printing, Laser Cutting  
+- **Tools:** 3D Printing 
 
 ---
 
 #### Projects
 - **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
+  *[study how a change in design modifies a steam turbine]*  
+  - description of the system  
+  - consequences when inlet temperature increases  
 
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
 
 ---
 
 #### Work Experience
-- **[Company Name] - Intern**  
-  [Month, Year] - [Month, Year]  
-  - Responsibility 1  
-  - Responsibility 2  
+- **[Matter of Trust] - Intern**  
+  [May, 2022] - [May, 2022]  
+  - research in water pollution   
+  - provided feedback and discussed implementations
 
 ---
 
 #### Achievements & Certifications
-- [Certification Name], [Issuing Organization], [Year]  
-- [Achievement Name], [Competition/Event], [Year]  
+- [National Champion], [college national championship, ODU], [2025]  
 
 ---
 
 #### Extracurricular Activities
-- Member of [Club/Organization Name]  
-- Volunteer for [Event/Organization Name]  
+- Member of [cornell D1 xailing team]  
+ 
 
 ---
 
