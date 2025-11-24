@@ -1,8 +1,8 @@
 ---
 layout: project
-title: stean turbine 
+title: steam turbine efficiency analysis
 description: study of a steam turbine with design change (increasing inlet temperature)
-technologies: [SolidWorks, Machining]
+technologies: [thermodynamics concepts]
 image: /assets/images/img_machinery_A3_01.jpg
 ---
 
@@ -16,8 +16,6 @@ This project analyzes the thermodynamic operation of a steam turbine and evaluat
 Increasing the temperature is a common and realistic design change in modern power plants to improve efficiency and extract more useful work.
 
 
-
-
 ## II- QUALITATIVE DESCRIPTION OF THE DEVICE
 
 A steam turbine operates by allowing superheated steam to expand through a series of blades. As the steam expands, its enthalpy decreases, and its steam exits at a lower pressure and temperature.
@@ -28,6 +26,7 @@ Here is a simplified diagram of a turbine
 
 
 ![simplified diagram of a turbine]({{ "/assets/images/turbine_diagram.jpg.png" | relative_url }})
+
 
 ## III- GOVERNING EQUATIONS 
 
@@ -90,39 +89,42 @@ Let's imagine two different inlet and study the difference.
 
 ### a-Thermodynamic States – Original Design
 
-| State | Description               | p (MPa) | T (°C) | h (kJ/kg) | s (kJ/kg·K) | Region              | How obtained |
-|-------|---------------------------|--------:|-------:|----------:|------------:|----------------------|--------------|
-| 1     | Turbine inlet             | 8       | 450    | 3273      | 6.59        | Superheated steam    | Steam table @ 8 MPa, 450°C |
-| 2s    | Isentropic outlet         | 0.010   | —      | 2090      | 6.59        | 2-phase mixture      | s₂s = s₁; sat table @ 10 kPa |
-| 2     | Real outlet (ηₜ = 0.85)   | 0.010   | —      | 2383      | ~7.1–7.5    | 2-phase mixture      | Using efficiency relation |
+| State | Description             | p (MPa) | T (°C) | h (kJ/kg) | s (kJ/kg·K) | Region            | Notes                                |
+|------:|--------------------------|--------:|-------:|----------:|------------:|-------------------|--------------------------------------|
+| 1     | Turbine inlet            | 8       | 450    | 3273      | 6.59        | Superheated       | Superheated table @ 8 MPa, 450°C     |
+| 2s    | Isentropic outlet        | 0.010   | —      | 2090      | 6.59        | Two-phase         | Using s₂s = s₁ at 10 kPa             |
+| 2     | Real outlet (ηₜ = 0.85)  | 0.010   | —      | 2383      | ~7.1–7.5    | Two-phase         | Using efficiency relation            |
+
 
 
 ### b-Thermodynamic States – Modified Design
 
-| State | Description               | p (MPa) | T (°C)      | h (kJ/kg) | s (kJ/kg·K) | Region              | How obtained |
-|-------|---------------------------|--------:|------------:|----------:|------------:|----------------------|--------------|
-| 1     | Turbine inlet             | 8       | 550         | 3583      | 6.66        | Superheated steam    | Steam table @ 8 MPa, 550°C |
-| 2s    | Isentropic outlet         | 0.010   | —           | 2090      | 6.66        | 2-phase mixture      | s₂s = s₁; sat table @ 10 kPa |
-| 2     | Real outlet (ηₜ = 0.85)   | 0.010   | —           | 2270      | 7.53        | 2-phase mixture      | Using efficiency relation |
+| State | Description             | p (MPa) | T (°C) | h (kJ/kg) | s (kJ/kg·K) | Region            | Notes                                |
+|------:|--------------------------|--------:|-------:|----------:|------------:|-------------------|--------------------------------------|
+| 1     | Turbine inlet            | 8       | 550    | 3583      | 6.66        | Superheated       | Superheated table @ 8 MPa, 550°C     |
+| 2s    | Isentropic outlet        | 0.010   | —      | 2090      | 6.66        | Two-phase         | Using s₂s = s₁ at 10 kPa             |
+| 2     | Real outlet (ηₜ = 0.85)  | 0.010   | —      | 2270      | 7.53        | Two-phase         | Using efficiency relation            |
+
 
 
 ### c- impact on device performance
 
 1- work output 
-\[
+$$
 \dot{W}_{out} = \dot{m}(h_1 - h_2)
-\]
+$$
 According to the tbale we can see that as T increases, h_1 > h_2.
-Therefore \dot{W}_{out}increases: the turbine delivers more power for a same flow rate. 
+Therefore $$\dot{W}_{out}$$ increases: the turbine delivers more power for a same flow rate. 
 
 2- Thermal efficiency, Carnot efficiency 
 Carnot efficiency is the maximum theoretical efficiency of a heat engine operating between two thermal reservoirs, defined by the temperatures of the hot and cold reservoirs
 The relation of carnot efficiency is:
-\[
+$$
 \eta \approx 1 - \frac{T_{cold}}{T_{hot}}
-\]
-Where T_{hot}is related to the turbine inlet temperature and T_{cold} is related to the turbine outlet temperature. In this case it T_{hot} increases, the efficiency would increases.
+$$
+Where $$T_{hot}$$ is related to the turbine inlet temperature and T_{cold} is related to the turbine outlet temperature. In this case it $$T_{hot}$$ increases, the efficiency would increases.
 With this new design higher efficiencies are achieved, and more useful work can be drawn from the turbine.
+
 
 ## V- CONCLUSION 
 
