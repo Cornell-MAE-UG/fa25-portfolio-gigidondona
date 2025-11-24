@@ -31,6 +31,8 @@ Here is a simplified diagram of a turbine
 
 ## III- GOVERNING EQUATIONS 
 
+---
+
 ### a- Mass balance
 
 For a steady flow system with one inlet and outlet:
@@ -73,6 +75,8 @@ Ẇ<sub>out</sub> is the turbine power output
 h<sub>1</sub> is the inlet enthalpy
 h<sub>2</sub> is the outlet enthalpy
 
+---
+
 ### c- Entropy balance (Second law for a cotrol volume)
 
 <p><strong>Entropy balance:</strong><br>
@@ -86,6 +90,7 @@ Ṡ<sub>gen</sub> ≥ 0 represents the entropy generation due to irreversibiliti
 
 If the turbine was perfectly isentropic we would have s<sub>1</sub> = s<sub>2</sub> and Ṡ<sub>gen</sub> = 0. But for this example we will assume that it is a real turbine and therefore: s<sub>2</sub> > s<sub>1</sub> and Ṡ<sub>gen</sub> ≥ 0.
 
+---
 
 ## IV- DESIGN CHANGE: INCREASING INLET TEMPERATURE
 
@@ -212,7 +217,7 @@ Let's imagine two different inlet and study the difference.
 
 ### c- impact on device performance
 
-### 1- work output 
+1- work output 
 
 <p><strong>Turbine work equation:</strong><br>
 Ẇ<sub>out</sub> = ṁ (h<sub>1</sub> − h<sub>2</sub>)
@@ -221,13 +226,14 @@ Ẇ<sub>out</sub> = ṁ (h<sub>1</sub> − h<sub>2</sub>)
 According to the table we can see that as T increases, 
 <p>
 h<sub>1</sub> &gt; h<sub>2</sub>
-</p>.
-Therefore <p>
-Ẇ<sub>out</sub> increases
 </p>
-: the turbine delivers more power for a same flow rate. 
+Therefore: 
+Ẇ<sub>out</sub> increases which means that the turbine delivers more power for a same flow rate. 
+
+---
 
 2- Thermal efficiency, Carnot efficiency 
+
 Carnot efficiency is the maximum theoretical efficiency of a heat engine operating between two thermal reservoirs, defined by the temperatures of the hot and cold reservoirs
 The relation of carnot efficiency is:
 
@@ -239,7 +245,7 @@ Where T<sub>hot</sub> is related to the turbine inlet temperature and T<sub>cold
 With this new design higher efficiencies are achieved, and more useful work can be drawn from the turbine.
 
 
-
+---
 
 ## V- CONCLUSION 
 

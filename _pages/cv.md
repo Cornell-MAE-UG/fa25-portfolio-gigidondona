@@ -5,26 +5,26 @@ permalink: /cv/
 ---
 ## Curriculum Vitae
 
-[Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
+[Download my CV]({{ "/assets/CVGILDA.pdf" | relative_url }}) in PDF format.
 
 
-**Email:** [netID@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +123 456 7890
+**Email:** [gd386@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +607 379 3247
 
 ---
 
 #### Objective
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
+Passionate about engineering and eager to apply my knowledge in real-world applications.
 
 ---
 
 #### Education
 - **Cornell University**  
-  *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  *Bachelor of Science in environmental engineering*  
+  GPA: 3.1/4.0 | Graduation: May, 2028
 
-- **[High School Name]**  
+- **[Stanislas Nice]**  
   *High School Diploma*  
-  Graduation: [Month, Year]
+  Graduation: [May, 2024]
 
 ---
 
