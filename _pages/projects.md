@@ -1,17 +1,25 @@
-export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Applications/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/Applications/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/Applications/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/Applications/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
+<h1>Projects</h1>
+
+<p>Here are a few selected engineering projects.</p>
+
+<div class="gallery-container">
+  <div class="project-gallery">
+    {% for project in site.projects %}
+      <div class="gallery-item">
+        <a href="{{ project.url | relative_url }}">
+          {% if project.image %}
+            <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+          {% endif %}
+          <p>{{ project.title }}</p>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
 
