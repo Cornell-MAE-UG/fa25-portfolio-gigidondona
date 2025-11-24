@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Gilda Dondona
 description              : Gilda Dondona - Projects and CV 
-baseurl                  : "" # Set this to your repo name 
+baseurl                  : "/fa2025-portofolio-gildadondona" # Set this to your repo name 
 
 # Theme and Style
 theme: jekyll-theme-minimal
