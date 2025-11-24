@@ -7,6 +7,7 @@ image: /assets/images/img_machinery_A3_01.jpg
 ---
 
 ## I- INTRODUCTION
+
 Steam turbines are one of the most versatile and oldest prime mover technologies still in general production, used to drive a generator or mechanical machinery. A steam turbine is a heat engine that converts the thermal energy of high-pressure and high-temperature steam into mechanical shaft work.
 The turbine derives most of its improvement in thermodynamic efficiency from the use of multiple stages in the expansion of the steam.
 
@@ -18,6 +19,7 @@ Increasing the temperature is a common and realistic design change in modern pow
 
 
 ## II- QUALITATIVE DESCRIPTION OF THE DEVICE
+
 A steam turbine operates by allowing superheated steam to expand through a series of blades. As the steam expands, its enthalpy decreases, and its steam exits at a lower pressure and temperature.
 We often study this system assuming that it is at steady state and operates at constant volume with one inlet and one outlet. To simplify the study, we also assume that the change in kinetic and potential energy is negligible and that the system is adiabatic.
 
