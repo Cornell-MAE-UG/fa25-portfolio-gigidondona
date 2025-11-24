@@ -14,6 +14,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : Gilda Dondona
 description              : Gilda Dondona - Projects and CV 
 baseurl                  : "/fa25-portfolio-gigidondona" # Set this to your repo name 
+url                      : "https://cornell-mae-ug.github.io"
 
 # Theme and Style
 theme: jekyll-theme-minimal
