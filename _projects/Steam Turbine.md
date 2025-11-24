@@ -4,6 +4,7 @@ title: steam turbine efficiency analysis
 description: study of a steam turbine with design change (increasing inlet temperature)
 technologies: [thermodynamics concepts]
 image: /assets/images/img_machinery_A3_01.jpg
+math: true
 ---
 
 ## I- INTRODUCTION
@@ -59,8 +60,8 @@ $$
 
 where:
 $$\dot{W}_{out}$$ is the turbine power output 
-h_1 is the inlet enthalpy 
-h_2 is the outlet enthalpy 
+$h_1$ is the inlet enthalpy 
+$h_2$ is the outlet enthalpy 
 
 c- Entropy balance (Second law for a cotrol volume)
 $$
@@ -71,11 +72,11 @@ $$
 $$
 
 where:
-s_1 is the specefic entropy at the turbine inlet 
-s_2 is the specefic entropy at the turbine outlet 
+$$s_1$$ is the specefic entropy at the turbine inlet 
+$$s_2$$ is the specefic entropy at the turbine outlet 
 $$\dot{S}_{gen} \geq 0$$ represents the entropy generation due to irreversibilities like friction, tubulence or non ideal expansion.
 
-If the turbine was perfectly isentropic we would have s_1 = s_2 and \dot{S}_{gen} = 0. But for this example we will assume that it is a real turbine and therefore: s_2 > s_1 and $$\dot{S}_{gen} > 0$$.
+If the turbine was perfectly isentropic we would have $s_1 = s_2$ and $$\dot{S}_{gen} = 0$$. But for this example we will assume that it is a real turbine and therefore: $s_2 > s_1$ and $$\dot{S}_{gen} > 0$$.
 
 
 ## IV- DESIGN CHANGE: INCREASING INLET TEMPERATURE
@@ -83,27 +84,122 @@ If the turbine was perfectly isentropic we would have s_1 = s_2 and \dot{S}_{gen
 The chosen design modification is to increase the inlet temperature in the turbine.
 We expect the pressure to remain constant, and we will analyze the changes in enthalpy and in the turbine’s performance.
 
-
 Let's imagine two different inlet and study the difference.
+
+
 
 
 ### a-Thermodynamic States – Original Design
 
-| State | Description             | p (MPa) | T (°C) | h (kJ/kg) | s (kJ/kg·K) | Region            | Notes                                |
-|------:|--------------------------|--------:|-------:|----------:|------------:|-------------------|--------------------------------------|
-| 1     | Turbine inlet            | 8       | 450    | 3273      | 6.59        | Superheated       | Superheated table @ 8 MPa, 450°C     |
-| 2s    | Isentropic outlet        | 0.010   | —      | 2090      | 6.59        | Two-phase         | Using s₂s = s₁ at 10 kPa             |
-| 2     | Real outlet (ηₜ = 0.85)  | 0.010   | —      | 2383      | ~7.1–7.5    | Two-phase         | Using efficiency relation            |
+<h3>a. Thermodynamic States – Original Design</h3>
+
+<table class="steam-table">
+  <thead>
+    <tr>
+      <th>State</th>
+      <th>Description</th>
+      <th>p (MPa)</th>
+      <th>T (°C)</th>
+      <th>h (kJ/kg)</th>
+      <th>s (kJ/kg·K)</th>
+      <th>Region</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Turbine inlet</td>
+      <td>8</td>
+      <td>450</td>
+      <td>3273</td>
+      <td>6.59</td>
+      <td>Superheated</td>
+      <td>Table @ 8 MPa, 450°C</td>
+    </tr>
+
+    <tr>
+      <td>2s</td>
+      <td>Isentropic outlet</td>
+      <td>0.010</td>
+      <td>—</td>
+      <td>2090</td>
+      <td>6.59</td>
+      <td>Two-phase</td>
+      <td>s₂ = s₁ at 10 kPa</td>
+    </tr>
+
+    <tr>
+      <td>2</td>
+      <td>Real outlet (ηₜ = 0.85)</td>
+      <td>0.010</td>
+      <td>—</td>
+      <td>2383</td>
+      <td>~7.1–7.5</td>
+      <td>Two-phase</td>
+      <td>Efficiency relation</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 
 ### b-Thermodynamic States – Modified Design
 
-| State | Description             | p (MPa) | T (°C) | h (kJ/kg) | s (kJ/kg·K) | Region            | Notes                                |
-|------:|--------------------------|--------:|-------:|----------:|------------:|-------------------|--------------------------------------|
-| 1     | Turbine inlet            | 8       | 550    | 3583      | 6.66        | Superheated       | Superheated table @ 8 MPa, 550°C     |
-| 2s    | Isentropic outlet        | 0.010   | —      | 2090      | 6.66        | Two-phase         | Using s₂s = s₁ at 10 kPa             |
-| 2     | Real outlet (ηₜ = 0.85)  | 0.010   | —      | 2270      | 7.53        | Two-phase         | Using efficiency relation            |
+<h3>b. Thermodynamic States – Modified Design</h3>
+
+<table class="steam-table">
+  <thead>
+    <tr>
+      <th>State</th>
+      <th>Description</th>
+      <th>p (MPa)</th>
+      <th>T (°C)</th>
+      <th>h (kJ/kg)</th>
+      <th>s (kJ/kg·K)</th>
+      <th>Region</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Turbine inlet</td>
+      <td>8</td>
+      <td>550</td>
+      <td>3583</td>
+      <td>6.66</td>
+      <td>Superheated</td>
+      <td>Table @ 8 MPa, 550°C</td>
+    </tr>
+
+    <tr>
+      <td>2s</td>
+      <td>Isentropic outlet</td>
+      <td>0.010</td>
+      <td>—</td>
+      <td>2090</td>
+      <td>6.66</td>
+      <td>Two-phase</td>
+      <td>s₂ = s₁ at 10 kPa</td>
+    </tr>
+
+    <tr>
+      <td>2</td>
+      <td>Real outlet (ηₜ = 0.85)</td>
+      <td>0.010</td>
+      <td>—</td>
+      <td>2270</td>
+      <td>7.53</td>
+      <td>Two-phase</td>
+      <td>Efficiency relation</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 
@@ -113,7 +209,7 @@ Let's imagine two different inlet and study the difference.
 $$
 \dot{W}_{out} = \dot{m}(h_1 - h_2)
 $$
-According to the tbale we can see that as T increases, h_1 > h_2.
+According to the tbale we can see that as T increases, $$h_1 > h_2$$.
 Therefore $$\dot{W}_{out}$$ increases: the turbine delivers more power for a same flow rate. 
 
 2- Thermal efficiency, Carnot efficiency 
@@ -124,6 +220,8 @@ $$
 $$
 Where $$T_{hot}$$ is related to the turbine inlet temperature and T_{cold} is related to the turbine outlet temperature. In this case it $$T_{hot}$$ increases, the efficiency would increases.
 With this new design higher efficiencies are achieved, and more useful work can be drawn from the turbine.
+
+
 
 
 ## V- CONCLUSION 

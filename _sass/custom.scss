@@ -202,4 +202,35 @@ footer {
   transform: translateX(-4px);
 }
 
+/* table for numbers */
+table.steam-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.95rem;
+  border: 1px solid #aaa;
+  background: white;
+}
+
+table.steam-table th,
+table.steam-table td {
+  border: 1px solid #ccc;
+  padding: 10px 12px;
+  text-align: center;
+}
+
+table.steam-table th {
+  background: #e8e8e8;
+  font-weight: 700;
+}
+
+table.steam-table tbody tr:nth-child(even) {
+  background: #f7f7f7;
+}
+
+table.steam-table tbody tr:hover {
+  background: #f0f0f0;
+}
+
+
 
