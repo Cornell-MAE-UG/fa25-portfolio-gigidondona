@@ -111,9 +111,10 @@ footer {
 }
 
 .inline-image {
-  max-width: 250px;
+  max-width: 150px;
   margin: 0px 25px 15px 25px;
   vertical-align: top;
+  height: 500px;
 
   &-l {
     @extend .inline-image;

@@ -31,52 +31,60 @@ Here is a simplified diagram of a turbine
 
 ## III- GOVERNING EQUATIONS 
 
-a- Mass balance
-For a steady flow system with one inlet and outlet:
-$$
-\dot{m}_{in} = \dot{m}_{out} = \dot{m}
-$$
+### a- Mass balance
 
-b- Energy balance (General first law for control volume)
+For a steady flow system with one inlet and outlet:
+
+
+<p><strong>Mass balance:</strong>
+&nbsp; ṁ<sub>in</sub> = ṁ<sub>out</sub> = ṁ
+</p>
+
+---
+
+### b- Energy balance (General first law for control volume)
+
+
 The general steady-flow energy equation for a control volume is:
-$$
-\dot{Q} - \dot{W} =
-\dot{m} \left[(h_2 - h_1)
-+ \frac{V_2^2 - V_1^2}{2}
-+ g(z_2 - z_1)\right]
-$$
+
+<p><strong>General form:</strong><br>
+Q̇ − Ẇ = ṁ &nbsp;[ (h<sub>2</sub> − h<sub>1</sub>)
++ (V<sub>2</sub><sup>2</sup> − V<sub>1</sub><sup>2</sup>)/2
++ g (z<sub>2</sub> − z<sub>1</sub>) ]
+</p>
+
 
 For a turbine, we usually assume that:
-$$
-\dot{Q} = 0
-\deltaKE = \deltaPE = 0 
-$$
+
+<ul>
+  <li>Q̇ ≈ 0 (approximately adiabatic)</li>
+  <li>Change in kinetic energy ≈ 0</li>
+  <li>Change in potential energy ≈ 0</li>
+</ul>
 
 So this simplifies to:
 
-$$
-\dot{W}_{out} = \dot{m}(h_1 - h_2)
-$$
+<p><strong>Turbine energy equation:</strong><br>
+Ẇ<sub>out</sub> = ṁ (h<sub>1</sub> − h<sub>2</sub>)
+</p>
 
 where:
-$$\dot{W}_{out}$$ is the turbine power output 
-$h_1$ is the inlet enthalpy 
-$h_2$ is the outlet enthalpy 
+Ẇ<sub>out</sub> is the turbine power output
+h<sub>1</sub> is the inlet enthalpy
+h<sub>2</sub> is the outlet enthalpy
 
-c- Entropy balance (Second law for a cotrol volume)
-$$
-\dot{m}(s_2 - s_1) = \dot{S}_{gen} - \frac{\dot{Q}}{T_{boundary}}
-$$
-$$
-\dot{S}_{gen} = \dot{m}(s_2 - s_1)
-$$
+### c- Entropy balance (Second law for a cotrol volume)
+
+<p><strong>Entropy balance:</strong><br>
+ṁ (s<sub>2</sub> − s<sub>1</sub>) = Ṡ<sub>gen</sub> − Q̇ / T<sub>boundary</sub>
+</p>
 
 where:
-$$s_1$$ is the specefic entropy at the turbine inlet 
-$$s_2$$ is the specefic entropy at the turbine outlet 
-$$\dot{S}_{gen} \geq 0$$ represents the entropy generation due to irreversibilities like friction, tubulence or non ideal expansion.
+s<sub>1</sub> is the specific entropy at the turbine inlet
+s<sub>2</sub> is the specific entropy at the turbine outlet 
+Ṡ<sub>gen</sub> ≥ 0 represents the entropy generation due to irreversibilities like friction, tubulence or non ideal expansion.
 
-If the turbine was perfectly isentropic we would have $s_1 = s_2$ and $$\dot{S}_{gen} = 0$$. But for this example we will assume that it is a real turbine and therefore: $s_2 > s_1$ and $$\dot{S}_{gen} > 0$$.
+If the turbine was perfectly isentropic we would have s<sub>1</sub> = s<sub>2</sub> and Ṡ<sub>gen</sub> = 0. But for this example we will assume that it is a real turbine and therefore: s<sub>2</sub> > s<sub>1</sub> and Ṡ<sub>gen</sub> ≥ 0.
 
 
 ## IV- DESIGN CHANGE: INCREASING INLET TEMPERATURE
@@ -89,7 +97,6 @@ Let's imagine two different inlet and study the difference.
 
 
 
-### a-Thermodynamic States – Original Design
 
 <h3>a. Thermodynamic States – Original Design</h3>
 
@@ -146,7 +153,7 @@ Let's imagine two different inlet and study the difference.
 
 
 
-### b-Thermodynamic States – Modified Design
+
 
 <h3>b. Thermodynamic States – Modified Design</h3>
 
@@ -205,20 +212,30 @@ Let's imagine two different inlet and study the difference.
 
 ### c- impact on device performance
 
-1- work output 
-$$
-\dot{W}_{out} = \dot{m}(h_1 - h_2)
-$$
-According to the tbale we can see that as T increases, $$h_1 > h_2$$.
-Therefore $$\dot{W}_{out}$$ increases: the turbine delivers more power for a same flow rate. 
+### 1- work output 
+
+<p><strong>Turbine work equation:</strong><br>
+Ẇ<sub>out</sub> = ṁ (h<sub>1</sub> − h<sub>2</sub>)
+</p>
+
+According to the table we can see that as T increases, 
+<p>
+h<sub>1</sub> &gt; h<sub>2</sub>
+</p>.
+Therefore <p>
+Ẇ<sub>out</sub> increases
+</p>
+: the turbine delivers more power for a same flow rate. 
 
 2- Thermal efficiency, Carnot efficiency 
 Carnot efficiency is the maximum theoretical efficiency of a heat engine operating between two thermal reservoirs, defined by the temperatures of the hot and cold reservoirs
 The relation of carnot efficiency is:
-$$
-\eta \approx 1 - \frac{T_{cold}}{T_{hot}}
-$$
-Where $$T_{hot}$$ is related to the turbine inlet temperature and T_{cold} is related to the turbine outlet temperature. In this case it $$T_{hot}$$ increases, the efficiency would increases.
+
+<p><strong>Carnot efficiency:</strong><br>
+η ≈ 1 − (T<sub>cold</sub> / T<sub>hot</sub>)
+</p>
+
+Where T<sub>hot</sub> is related to the turbine inlet temperature and T<sub>cold</sub> is related to the turbine outlet temperature. In this case if T<sub>hot</sub> increases, the efficiency would increases.
 With this new design higher efficiencies are achieved, and more useful work can be drawn from the turbine.
 
 
