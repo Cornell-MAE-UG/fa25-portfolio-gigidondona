@@ -217,7 +217,7 @@ Let's imagine two different inlet and study the difference.
 
 ### c- impact on device performance
 ---
-1- work output 
+**1- work output**
 
 <p><strong>Turbine work equation:</strong><br>
 Ẇ<sub>out</sub> = ṁ (h<sub>1</sub> − h<sub>2</sub>)
@@ -232,7 +232,7 @@ Ẇ<sub>out</sub> increases which means that the turbine delivers more power for
 
 ---
 
-2- Thermal efficiency, Carnot efficiency 
+**2- Thermal efficiency, Carnot efficiency** 
 
 Carnot efficiency is the maximum theoretical efficiency of a heat engine operating between two thermal reservoirs, defined by the temperatures of the hot and cold reservoirs
 The relation of carnot efficiency is:

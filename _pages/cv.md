@@ -22,7 +22,7 @@ Passionate about engineering and eager to apply my knowledge in real-world appli
   *Bachelor of Science in environmental engineering*  
   GPA: 3.1/4.0 | Graduation: May, 2028
 
-- **[Stanislas Nice]**  
+- **Stanislas Nice**  
   *High School Diploma*  
   Graduation: [May, 2024]
 
@@ -36,8 +36,8 @@ Passionate about engineering and eager to apply my knowledge in real-world appli
 ---
 
 #### Projects
-- **[Project Title]**:  
-  *[study how a change in design modifies a steam turbine]*  
+- **study of a steam turbine**:  
+  [study how a change in design modifies a steam turbine*  
   - description of the system  
   - consequences when inlet temperature increases  
 
@@ -46,19 +46,19 @@ Passionate about engineering and eager to apply my knowledge in real-world appli
 
 #### Work Experience
 - **[Matter of Trust] - Intern**  
-  [May, 2022] - [May, 2022]  
+  May, 2022 - May, 2022
   - research in water pollution   
   - provided feedback and discussed implementations
 
 ---
 
 #### Achievements & Certifications
-- [National Champion], [college national championship, ODU], [2025]  
+- National Champion, college national championship, ODU, 2025
 
 ---
 
 #### Extracurricular Activities
-- Member of [cornell D1 xailing team]  
+- Member of the cornell D1 sailing team
  
 
 ---
