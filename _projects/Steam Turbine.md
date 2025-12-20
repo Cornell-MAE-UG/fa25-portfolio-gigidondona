@@ -26,7 +26,11 @@ We often study this system assuming that it is at steady state and operates at c
 Here is a simplified diagram of a turbine 
 
 
-![Simplified diagram of a turbine](/fa25-portfolio-gigidondona/assets/images/turbine_diagram.jpg.png)
+<img
+  src="{{ '/assets/images/turbine_diagram.jpg.png' | relative_url }}"
+  alt="Simplified diagram of a turbine"
+  class="zoomable turbine-diagram">
+
 
 
 
