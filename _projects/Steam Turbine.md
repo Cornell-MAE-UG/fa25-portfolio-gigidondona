@@ -27,7 +27,7 @@ Here is a simplified diagram of a turbine
 
 
 <img
-  src="{{ '/assets/images/turbine_diagram.jpg.png' | relative_url }}"
+  src="/fa25-portfolio-gigidondona/assets/images/turbine_diagram.jpg.png"
   alt="Simplified diagram of a turbine"
   class="zoomable turbine-diagram">
 
