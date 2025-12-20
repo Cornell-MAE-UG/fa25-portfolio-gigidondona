@@ -356,3 +356,19 @@ table.steam-table th {
 table.steam-table td {
   font-variant-numeric: tabular-nums;
 }
+
+
+.project-content img,
+.project-content figure img,
+.content img {
+  max-width: 520px;   
+  width: 100%;
+  margin: 20px auto;
+  display: block;
+}
+
+.turbine-diagram {
+  max-width: 480px;
+  margin: 20px auto;
+  display: block;
+}
