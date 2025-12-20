@@ -367,8 +367,11 @@ table.steam-table td {
   display: block;
 }
 
-.turbine-diagram {
-  max-width: 480px;
-  margin: 20px auto;
+
+img[src*="turbine_diagram"] {
+  max-width: 480px !important;
+  width: 100%;
+  height: auto;
   display: block;
+  margin: 20px auto;
 }

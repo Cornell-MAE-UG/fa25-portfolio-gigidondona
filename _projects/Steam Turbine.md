@@ -26,7 +26,7 @@ We often study this system assuming that it is at steady state and operates at c
 Here is a simplified diagram of a turbine 
 
 
-![Simplified turbine control volume](/assets/images/turbine-diagram.png){: .turbine-diagram .zoomable }
+![Simplified diagram of a turbine](/assets/images/turbine_diagram.jpg.png)
 
 
 
