@@ -26,20 +26,16 @@ Plan:
 
 Solution:
 
-<Solution:
-
-
 $$
 \begin{aligned}
-\sum M_A &= \ell_{\text{tot}}F_e - \ell_{\text{nut}}F_{\text{nut}} = 0 \\[6pt]
+\sum M_A &= \ell_{\text{tot}}F_e - \ell_{\text{nut}}F_{\text{nut}} = 0 \\
 \Rightarrow \frac{\ell_{\text{tot}}}{\ell_{\text{nut}}}
 &= \frac{F_{\text{nut}}}{F_e}
 = \frac{222.18}{40}
-\approx 5.56 \\[10pt]
-\Rightarrow \frac{h_{\text{tot}}}{h_{\text{nut}}} &\approx 5.56 \\[6pt]
-\Rightarrow h_{\text{tot}} &= 5.56\,h_{\text{nut}}
-= 5.56(2\,\text{cm})
-\approx 11.12\,\text{cm}
+\approx 5.56 \\
+\Rightarrow h_{\text{tot}} &= 5.56\,h_{\text{nut}} \\
+&= 5.56(2\,\text{cm}) \\
+&\approx 11.12\,\text{cm}
 \end{aligned}
 $$
 
@@ -83,24 +79,27 @@ Plan:
 
 Solution: 
 
-Solution:
-
-|  |  |
-|---|---|
-| 
 $$
 \begin{aligned}
-\sum M_A &= \ell_{\text{tot}}F_e - \ell_{\text{nut}}F_{\text{nut}} = 0 \\[6pt]
-\Rightarrow \frac{\ell_{\text{tot}}}{\ell_{\text{nut}}}
-&= \frac{F_{\text{nut}}}{F_e}
-= \frac{222.18}{200}
-\approx 2.49 \\[10pt]
+\sum M_A &= \ell_{\text{tot}}F_e - \ell_{\text{nut}}F_{\text{nut}} = 0 \\
+\Rightarrow
 \frac{\ell_{\text{tot}}}{\ell_{\text{nut}}}
-&= \frac{h_{\text{tot}}}{h_{\text{nut}}} \\[6pt]
-\Rightarrow h_{\text{nut}}
-&= \frac{\ell_{\text{nut}}h_{\text{tot}}}{\ell_{\text{tot}}}
-= \frac{10.88 \times 2.54}{2.49}
-\approx 11.32\,\text{cm}
+&=
+\frac{F_{\text{nut}}}{F_e}
+=
+\frac{222.18}{200}
+\approx 2.49 \\
+\frac{\ell_{\text{tot}}}{\ell_{\text{nut}}}
+&=
+\frac{h_{\text{tot}}}{h_{\text{nut}}} \\
+\Rightarrow
+h_{\text{nut}}
+&=
+\frac{\ell_{\text{nut}}h_{\text{tot}}}{\ell_{\text{tot}}} \\
+h_{\text{nut}}
+&=
+\frac{10.88 \times 2.54}{2.49} \\
+&\approx 11.32\,\text{cm}
 \end{aligned}
 $$
 
