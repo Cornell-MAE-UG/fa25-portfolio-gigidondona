@@ -43,7 +43,11 @@ $$
 \end{aligned}
 $$
 
+</div>
+
 <img src="/fa25-portfolio-gigidondona/assets/images/breaknut.png" style="width:260px; border-radius:8px;">
+
+</div>
 
 Therefore: 
 
@@ -111,8 +115,11 @@ h_{\text{nut}}
 \end{aligned}
 $$
 
+</div>
 
 <img src="/fa25-portfolio-gigidondona/assets/images/breaknut.png" style="width:260px; border-radius:8px;">
+
+</div>
 
 The design must first contact the nut before continuing to rise.
 
