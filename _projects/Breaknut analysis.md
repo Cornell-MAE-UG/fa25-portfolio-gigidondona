@@ -7,22 +7,22 @@ image: /assets/images/Breaknutoriginal.png
 math: true
 ---
 ## Additional exercise of homework 4 
-Design problem: Imageine you have a macadamia nut that you want to crack open by hand
-using a simple lever nut cracker
+Design problem: Imagine you have a macadamia nut that you want to crack open by hand
+using a simple lever nut cracker.
 
 ### a- Come up with a design to make this task feasible 
 
 Given: 
-    load to crack a nut: 222.18kg 
-    nut size: 20mm = 2.0cm 
-    grip strenght: 40Kg
+- Load to crack a nut: 222.18kg 
+- Nut size: 20mm = 2.0cm 
+- Grip strenght: 40Kg
 
 Find: 
-    dimensions od the design of the nut cracker
+- Dimensions od the design of the nut cracker
 
 Plan: 
-    draw a free body diagram of the nut breaker 
-    find the moment at the joints to calculate the ratio of lenghts and heights
+- Draw a free body diagram of the nut breaker 
+- Find the moment at the joints to calculate the ratio of lenghts and heights
 
 Solution:
 
@@ -74,16 +74,16 @@ The nutbreaker is approximately 22cm long and 11cm large, which makes it difficu
 Using the datas of a linear actuator found online:
 
 Given: Linear motion actuator:
-    force = 200lbs 
-    stroke lenght = 4in
-    closed lenght = 10.88 in 
+- Force = 200lbs 
+- Stroke lenght = 4in
+- Closed lenght = 10.88 in 
 
 Find: 
-    dimensions of the updtaed nutbreaker 
+- Dimensions of the updtaed nutbreaker 
 
 Plan:
-    Draw a free body diagram with missing values 
-    Use the sum of the moments at joint A to find the new heights and lenghts 
+- Draw a free body diagram with missing values 
+- Use the sum of the moments at joint A to find the new heights and lenghts 
 
 Solution: 
 
