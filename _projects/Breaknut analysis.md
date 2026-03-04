@@ -30,7 +30,7 @@ Solution:
 
 <div style="flex:1;">
 
-$$
+\[
 \begin{aligned}
 \sum M_A &= \ell_{\text{tot}}F_e - \ell_{\text{nut}}F_{\text{nut}} = 0 \\
 \Rightarrow \frac{\ell_{\text{tot}}}{\ell_{\text{nut}}}
@@ -41,7 +41,7 @@ $$
 &= 5.56(2\,\text{cm}) \\
 &\approx 11.12\,\text{cm}
 \end{aligned}
-$$
+\]
 
 </div>
 
@@ -91,7 +91,7 @@ Solution:
 
 <div style="flex:1;">
 
-$$
+\[
 \begin{aligned}
 \sum M_A &= \ell_{\text{tot}}F_e - \ell_{\text{nut}}F_{\text{nut}} = 0 \\
 \Rightarrow
@@ -113,7 +113,7 @@ h_{\text{nut}}
 \frac{10.88 \times 2.54}{2.49} \\
 &\approx 11.32\,\text{cm}
 \end{aligned}
-$$
+\]
 
 </div>
 
@@ -121,7 +121,6 @@ $$
 
 </div>
 
-The design must first contact the nut before continuing to rise.
 
 <div style="text-align:center; margin:40px 0;">
 
@@ -136,5 +135,6 @@ Updated break-nut geometry satisfying the moment equilibrium constraint.
 
 </div>
 
+The design must first contact the nut before continuing to rise.
 
 
