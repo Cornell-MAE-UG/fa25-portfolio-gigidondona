@@ -26,49 +26,24 @@ Plan:
 
 Solution:
 
-<div style="display:flex; align-items:flex-start; gap:30px;">
+<Solution:
 
-<div style="flex:1;">
 
 $$
 \begin{aligned}
-\sum M_A &= \ell_{\text{tot}}F_e - \ell_{\text{nut}}F_{\text{nut}} = 0
-\\[6pt]
-
+\sum M_A &= \ell_{\text{tot}}F_e - \ell_{\text{nut}}F_{\text{nut}} = 0 \\[6pt]
 \Rightarrow \frac{\ell_{\text{tot}}}{\ell_{\text{nut}}}
-&=
-\frac{F_{\text{nut}}}{F_e}
-=
-\frac{222.18}{40}
-\approx 5.56
-\\[10pt]
-
-\Rightarrow
-\frac{h_{\text{tot}}}{h_{\text{nut}}}
-&\approx 5.56
-\\[6pt]
-
-\Rightarrow
-h_{\text{tot}}
-&=
-5.56\,h_{\text{nut}}
-\\[6pt]
-
-&=
-5.56(2\,\text{cm})
-\\[6pt]
-
-&\approx 11.12\,\text{cm}
+&= \frac{F_{\text{nut}}}{F_e}
+= \frac{222.18}{40}
+\approx 5.56 \\[10pt]
+\Rightarrow \frac{h_{\text{tot}}}{h_{\text{nut}}} &\approx 5.56 \\[6pt]
+\Rightarrow h_{\text{tot}} &= 5.56\,h_{\text{nut}}
+= 5.56(2\,\text{cm})
+\approx 11.12\,\text{cm}
 \end{aligned}
 $$
 
-</div>
-
-<img
-src="/fa25-portfolio-gigidondona/assets/images/breaknut.png"
-style="width:260px; border-radius:8px;">
-
-</div>
+<img src="/fa25-portfolio-gigidondona/assets/images/breaknut.png" style="width:260px; border-radius:8px;">
 
 Therefore: 
 
@@ -108,60 +83,30 @@ Plan:
 
 Solution: 
 
-<div style="display:flex; align-items:flex-start; gap:30px;">
+Solution:
 
-<div style="flex:1;">
-
+|  |  |
+|---|---|
+| 
 $$
 \begin{aligned}
-
-\sum M_A
-&=
-\ell_{\text{tot}}F_e
--
-\ell_{\text{nut}}F_{\text{nut}}
-=0
-\\[6pt]
-
-\Rightarrow
+\sum M_A &= \ell_{\text{tot}}F_e - \ell_{\text{nut}}F_{\text{nut}} = 0 \\[6pt]
+\Rightarrow \frac{\ell_{\text{tot}}}{\ell_{\text{nut}}}
+&= \frac{F_{\text{nut}}}{F_e}
+= \frac{222.18}{200}
+\approx 2.49 \\[10pt]
 \frac{\ell_{\text{tot}}}{\ell_{\text{nut}}}
-&=
-\frac{F_{\text{nut}}}{F_e}
-=
-\frac{222.18}{200}
-\approx 2.49
-\\[10pt]
-
-\frac{\ell_{\text{tot}}}{\ell_{\text{nut}}}
-&=
-\frac{h_{\text{tot}}}{h_{\text{nut}}}
-\\[6pt]
-
-\Rightarrow
-h_{\text{nut}}
-&=
-\frac{\ell_{\text{nut}}h_{\text{tot}}}{\ell_{\text{tot}}}
-\\[10pt]
-
-h_{\text{nut}}
-&=
-\frac{10.88 \times 2.54}{2.49}
-\\[6pt]
-
-&\approx 11.32\,\text{cm}
-
+&= \frac{h_{\text{tot}}}{h_{\text{nut}}} \\[6pt]
+\Rightarrow h_{\text{nut}}
+&= \frac{\ell_{\text{nut}}h_{\text{tot}}}{\ell_{\text{tot}}}
+= \frac{10.88 \times 2.54}{2.49}
+\approx 11.32\,\text{cm}
 \end{aligned}
 $$
 
 The design must first contact the nut before continuing to rise.
 
-</div>
-
-<img
-src="/fa25-portfolio-gigidondona/assets/images/breaknut.png"
-style="width:260px; border-radius:8px;">
-
-</div>
+<img src="/fa25-portfolio-gigidondona/assets/images/breaknut.png" style="width:260px; border-radius:8px;">
 
 <div style="text-align:center; margin:40px 0;">
 
