@@ -26,6 +26,10 @@ Plan:
 
 Solution:
 
+<div style="display:flex; align-items:center; gap:40px;">
+
+<div style="flex:1;">
+
 $$
 \begin{aligned}
 \sum M_A &= \ell_{\text{tot}}F_e - \ell_{\text{nut}}F_{\text{nut}} = 0 \\
@@ -79,6 +83,10 @@ Plan:
 
 Solution: 
 
+<div style="display:flex; align-items:center; gap:40px;">
+
+<div style="flex:1;">
+
 $$
 \begin{aligned}
 \sum M_A &= \ell_{\text{tot}}F_e - \ell_{\text{nut}}F_{\text{nut}} = 0 \\
@@ -103,9 +111,10 @@ h_{\text{nut}}
 \end{aligned}
 $$
 
-The design must first contact the nut before continuing to rise.
 
 <img src="/fa25-portfolio-gigidondona/assets/images/breaknut.png" style="width:260px; border-radius:8px;">
+
+The design must first contact the nut before continuing to rise.
 
 <div style="text-align:center; margin:40px 0;">
 
