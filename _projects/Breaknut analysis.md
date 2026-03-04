@@ -10,7 +10,7 @@ math: true
 Design problem: Imagine you have a macadamia nut that you want to crack open by hand
 using a simple lever nut cracker.
 
-### a- Come up with a design to make this task feasible 
+### A- Come up with a design to make this task feasible 
 
 Given: 
 - Load to crack a nut: 222.18kg 
@@ -64,12 +64,12 @@ Final break-nut geometry obtained from the moment equilibrium analysis.
 
 </div>
 
-### b- Discuss the usability of the nutcracker that you designed
+### B- Discuss the usability of the nutcracker that you designed
 
 The nutbreaker is approximately 22cm long and 11cm large, which makes it difficult to use when a nut is inserted. As the height is pretty large, it would make the obejct difficult to use, and therefore not ideal to break the nut. 
 
 
-### c- Modify your design to use a linear actuator.
+### C- Modify your design to use a linear actuator.
 
 Using the datas of a linear actuator found online:
 
