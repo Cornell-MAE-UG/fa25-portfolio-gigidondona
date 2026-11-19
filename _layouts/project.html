@@ -1,28 +1,68 @@
+
 ---
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
+<article class="project-page">
 
-<p><img src="{{ page.image | relative_url }}" alt="{{ page.imagealt }}" class="project-image" /></p>
+  <a href="{{ '/projects/' | relative_url }}" class="back-arrow">
+    &larr; Back to Projects
+  </a>
 
-{{ content }}
+  <header class="project-header">
 
-<p><strong>Technologies Used</strong>: {{ page.technologies | join: ", " }}</p>
+    {% if page.category %}
+      <p class="project-category">{{ page.category }}</p>
+    {% endif %}
 
-<a href={{ "/projects/" | relative_url }} class="back-arrow">
-    <i class="bi bi-arrow-left-circle-fill"></i> Back to Projects
-</a>
+    <h1>{{ page.title }}</h1>
 
-<p><img src="{{ page.image | relative_url }}" alt="{{ page.imagealt }}" class="project-image" /></p>
+    {% if page.subtitle %}
+      <p class="project-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+
+  </header>
+
+  {% if page.image %}
+    <div class="project-hero">
+      <img
+        src="{{ page.image | relative_url }}"
+        alt="{{ page.imagealt }}"
+        class="project-image"
+      />
+    </div>
+  {% endif %}
+
+  <div class="project-content">
+
+    {{ content }}
+
+  </div>
+
+  {% if page.technologies %}
+    <div class="project-technologies">
+      <h3>Technologies Used</h3>
+      <p>{{ page.technologies | join: ", " }}</p>
+    </div>
+  {% endif %}
+
+  <a href="{{ '/projects/' | relative_url }}" class="back-arrow">
+    &larr; Back to Projects
+  </a>
+
+</article>
 
 {% if page.math %}
 <script>
   window.MathJax = {
-    tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
   };
 </script>
-<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-{% endif %}
 
-{{ content }}
+<script defer
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+{% endif %}
