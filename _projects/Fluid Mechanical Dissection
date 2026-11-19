@@ -7,6 +7,6 @@ image: /assets/images/fluidmechanics.png
 math: true
 ---
 
-##I- DISSECTION OF A WEEDACKER
+## I- DISSECTION OF A WEEDACKER
 
-In this group project, we are dissecting a weedcutter to understand the mechanisms behind it. Particularly, we will focus on the centrifugal pump of this object and how does it allowed to make the woodcutter work.
+In this group project, we dissect a weedcutter to understand its mechanisms. In particular, we will focus on the centrifugal pump and how it allows the weedcutter to work.
