@@ -5,49 +5,45 @@ layout: default
 <article class="project-page">
 
   <a href="{{ '/projects/' | relative_url }}" class="back-arrow">
-    &larr; Back to Projects
+    ← Back to Projects
   </a>
 
-  <header class="project-header">
+  <div class="project-header">
 
     {% if page.category %}
-      <p class="project-category">{{ page.category }}</p>
+    <div class="project-category">
+      {{ page.category }}
+    </div>
     {% endif %}
 
     <h1>{{ page.title }}</h1>
 
     {% if page.subtitle %}
-      <p class="project-subtitle">{{ page.subtitle }}</p>
+    <p class="project-subtitle">
+      {{ page.subtitle }}
+    </p>
     {% endif %}
-
-  </header>
-
-  {% if page.image %}
-    <div class="project-hero">
-      <img
-        src="{{ page.image | relative_url }}"
-        alt="{{ page.imagealt }}"
-        class="project-image"
-      />
-    </div>
-  {% endif %}
-
-  <div class="project-content">
-
-    {{ content }}
 
   </div>
 
-  {% if page.technologies %}
-    <div class="project-technologies">
-      <h3>Technologies Used</h3>
-      <p>{{ page.technologies | join: ", " }}</p>
-    </div>
+  {% if page.image %}
+  <div class="project-hero">
+    <img src="{{ page.image | relative_url }}"
+         alt="{{ page.imagealt }}"
+         class="project-image">
+  </div>
   {% endif %}
 
-  <a href="{{ '/projects/' | relative_url }}" class="back-arrow">
-    &larr; Back to Projects
-  </a>
+  <div class="project-content">
+    {{ content }}
+  </div>
+
+  {% if page.technologies %}
+  <div class="project-technologies">
+    <h3>Technologies & Methods</h3>
+    <p>{{ page.technologies | join: ", " }}</p>
+  </div>
+  {% endif %}
 
 </article>
 
@@ -55,12 +51,10 @@ layout: default
 <script>
   window.MathJax = {
     tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
     }
   };
 </script>
-
 <script defer
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
