@@ -16,19 +16,4 @@ math: true
 
 ## 1. Introduction
 
-As part of our Fluid Mechanics course at Cornell University 
-(MAE 3230), we conducted a group dissection project on a 
-weed trimmer to investigate the engineering principles 
-behind its operation.
-
-The objective of this project is to connect the theoretical 
-concepts introduced in class with a real mechanical system. 
-Through physical disassembly, component identification, 
-and engineering analysis, we aim to understand how the 
-different components interact and how fluid motion 
-contributes to the overall operation of the machine.
-
-Our study will particularly focus on the centrifugal flow 
-mechanism, investigating its geometry, operating principles, 
-energy transfer, and influence on the performance of the 
-system.
+We are dissecting a weedcutter as a group to understand how fluid dynamics applies to it. More precisely, we are going to focus on the centrifugal pump inside the machine and understand how it makes the machine function.
