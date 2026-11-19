@@ -1,51 +1,154 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>
+    {% if page.title %}
+      {{ page.title }} | {{ site.title }}
+    {% else %}
+      {{ site.title }}
+    {% endif %}
+  </title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet"
+        href="{{ '/assets/css/main.css' | relative_url }}">
+
 </head>
 
-<body>
+<body class="portfolio-body">
 
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark text-white";>
-      <div class="container-fluid">
-        <a class="navbar-brand" href="{{ "/" | relative_url }}">{{ site.title }}</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
+  <!-- NAVIGATION -->
+
+  <header class="site-header">
+
+    <nav class="navbar navbar-expand-lg site-navbar">
+
+      <div class="container">
+
+        <a class="navbar-brand site-brand"
+           href="{{ '/' | relative_url }}">
+
+          <span class="brand-name">
+            {{ site.title }}
+          </span>
+
+          <span class="brand-subtitle">
+            Engineering Portfolio
+          </span>
+
+        </a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+
           <span class="navbar-toggler-icon"></span>
-        </button>  
-        <div class="collapse navbar-collapse" id="navbarNav">
+
+        </button>
+
+        <div class="collapse navbar-collapse"
+             id="navbarNav">
+
           <ul class="navbar-nav ms-auto">
+
             <li class="nav-item">
-              <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="{{ "/" | relative_url }}">Home</a>
+
+              <a class="nav-link {% if page.url == '/' %}active{% endif %}"
+                 href="{{ '/' | relative_url }}">
+                Home
+              </a>
+
             </li>
+
             <li class="nav-item">
-              <a class="nav-link {% if page.url == '/projects/' %}active{% endif %}" href="{{ "/projects/" | relative_url }}">Projects</a>
-            </li> 
-            <li class="nav-item">
-              <a class="nav-link {% if page.url == '/cv/' %}active{% endif %}" href="{{ "/cv/" | relative_url }}">CV</a>
+
+              <a class="nav-link {% if page.url contains '/projects/' %}active{% endif %}"
+                 href="{{ '/projects/' | relative_url }}">
+                Projects
+              </a>
+
             </li>
+
+            <li class="nav-item">
+
+              <a class="nav-link {% if page.url == '/cv/' %}active{% endif %}"
+                 href="{{ '/cv/' | relative_url }}">
+                CV
+              </a>
+
+            </li>
+
           </ul>
+
         </div>
+
       </div>
+
     </nav>
+
   </header>
-  
-  
-  <main class="container">
+
+
+  <!-- PAGE CONTENT -->
+
+  <main class="container site-main">
+
     {{ content }}
+
   </main>
 
-  <footer class="footer navbar-dark text-white text-center";>
-    <div class="container">
-      &copy; 2024 {{ site.name }}. All rights not reserved.
+
+  <!-- FOOTER -->
+
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+
+      <span>
+        &copy; {{ site.time | date: '%Y' }} {{ site.title }}
+      </span>
+
+      <span>
+        Cornell University · Engineering
+      </span>
+
     </div>
+
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Bootstrap JavaScript -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+  </script>
+
 </body>
+
 </html>
